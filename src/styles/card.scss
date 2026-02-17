@@ -5,7 +5,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid #f3f3f3;
+  border: 1px solid $border-color;
   border-radius: 5px;
   background-color: #fff;
   font-family: $font-family;
@@ -40,6 +40,26 @@
     line-height: 14px;
     color: $secondary-color;
     margin-top: 4px;
+  }
+
+  &__review-section {
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-self: flex-start;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: $padding-inline;
+    margin-top: 16px;
+  }
+
+  &__reviews {
+    margin: 0;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    color: $secondary-color;
   }
 
   &__price {
